@@ -1,0 +1,4 @@
+#!/bin/sh
+#/usr/bin/raspi-gpio get 14 | cut -d " "  -f 3 | cut -d "=" -f 2
+#/usr/bin/gpio read 14
+cat /sys/kernel/debug/gpio | grep 14 | awk '{print $6}'

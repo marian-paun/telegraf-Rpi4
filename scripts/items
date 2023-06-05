@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/find $1 -type f -regex "$2" | /usr/bin/wc -l
