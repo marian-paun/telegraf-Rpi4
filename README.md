@@ -1,2 +1,2 @@
 # telegraf-Rpi4
-Current telegraf config files for Rpi4 instance
+Current telegraf config files for Raspberry Pi 4 instance
